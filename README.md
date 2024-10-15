@@ -128,12 +128,19 @@ Teks diubah menjadi pasangan huruf: "GO", "OD", "BR", "OO", "MS", "WE", "EP", "C
 3. Proses Enkripsi:
 
 Setiap pasangan huruf diambil dari matriks, lalu dienkripsi dengan aturan Playfair:
-Jika kedua huruf berada dalam baris yang sama, geser ke kanan.
-Jika dalam kolom yang sama, geser ke bawah.
-Jika tidak, tukar dengan huruf di sudut berlawanan dari persegi panjang yang dibentuk.
+
+- Jika kedua huruf berada dalam baris yang sama, geser ke kanan.
+  
+- Jika dalam kolom yang sama, geser ke bawah.
+  
+- Jika tidak, tukar dengan huruf di sudut berlawanan dari persegi panjang yang dibentuk.
+  
 Contoh enkripsi untuk beberapa pasangan:
 
 GO: Huruf G (baris 3, kolom 4) dan O (baris 2, kolom 2) → jadi C dan M.
+
 OD: Huruf O (baris 2, kolom 2) dan D (baris 3, kolom 3) → jadi R dan C.
+
 BR: Huruf B (baris 3, kolom 1) dan R (baris 2, kolom 3) → jadi D dan F.
+
 Ulangi proses ini untuk setiap pasangan huruf sampai seluruh plaintext terenkripsi.
